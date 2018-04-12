@@ -111,7 +111,7 @@
         sddefault -> 640x480
          */
 
-        if(size=='default' || size=='mqdefault' || size=='hqdefault' || size=='sddefault'){
+        if(size=='default' || size=='mqdefault' || size=='hqdefault' || size=='sddefault' || size=='maxresdefault'){
             return size;
         }else{
             size='mqdefault';
