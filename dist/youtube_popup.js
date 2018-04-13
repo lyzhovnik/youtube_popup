@@ -8,7 +8,11 @@
     function Youtube_popup() {
 
         var tags=document.querySelectorAll("[data-youtube='true']");
-
+        if(tags.length!=0){
+            var tag = document.createElement('script');
+            tag.src = "https://www.youtube.com/player_api";
+            document.body.appendChild(tag);
+        }
         for (var i=0;i<tags.length;i++){
 
             if( tags[i].dataset['youtubeimg']!=null){
@@ -43,9 +47,7 @@
 
         }
 
-        var tag = document.createElement('script');
-        tag.src = "https://www.youtube.com/player_api";
-        document.body.appendChild(tag);
+
 
     }
 
