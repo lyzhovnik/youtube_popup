@@ -11,6 +11,8 @@ loads longer.
 
 ## How To Use
 
+Take lib file in the folder "Dist" youtube_popup.min.js and add to your web-site. Then there are two options:
+
 ### Without image
 Easy way to use it. Just put attributes **data-video-id=" "** with YouTube video id and  **data-youtube="true"**.
 These are required attributes.
